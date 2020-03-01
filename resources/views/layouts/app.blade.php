@@ -71,8 +71,7 @@
                         <a href="" class="nav-link">
                            <i class="nav-icon fas fa-th"></i>
                            <p>
-                              Simple Link
-                              <span class="right badge badge-danger">New</span>
+                             Importar deudores
                            </p>
                         </a>
                      </li>
@@ -89,13 +88,13 @@
                <div class="container-fluid">
                   <div class="row mb-2">
                      <div class="col-sm-6">
-                        <h1 class="m-0 text-dark">Starter Page</h1>
+                        <h1 class="m-0 text-dark"> @yield('title')</h1>
                      </div>
                      <!-- /.col -->
                      <div class="col-sm-6">
                         <ol class="breadcrumb float-sm-right">
-                           <li class="breadcrumb-item"><a href="">Home</a></li>
-                           <li class="breadcrumb-item active">Starter Page</li>
+                        <li class="breadcrumb-item"><a href="{{URL('/')}}/home">Inicio</a></li>
+                    
                         </ol>
                      </div>
                      <!-- /.col -->
